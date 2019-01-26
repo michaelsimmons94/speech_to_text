@@ -1,0 +1,6 @@
+<launch>
+	<node name="speech_to_text" pkg="speech_to_text" type="speechToText.py" output="screen">
+		<param name="lm" value="$(find speech_to_text)/vocab/robocup.lm"/> -->
+		<param name="dict" value="$(find speech_to_text)/vocab/robocup.dic"/>
+	</node>
+</launch>
